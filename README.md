@@ -1,3 +1,3 @@
-# Vis-Net
+# LightReSeg
 
 Wait for article acceptance.
