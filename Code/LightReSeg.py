@@ -235,9 +235,9 @@ class AttentionModule(nn.Module):
 
         return attn * u
 
-class pure_U_net_relu_TEST(nn.Module):
+class LightReSeg(nn.Module):
     def __init__(self, in_channel, num_class):
-        super(pure_U_net_relu_TEST, self).__init__()
+        super(LightReSeg, self).__init__()
         # Encode
         self.conv_encode1 = contracting_block(in_channels=in_channel, out_channels=16)
         self.conv_pool1=SeparableConv2d(16,16,stride=2,padding=1)
@@ -315,6 +315,6 @@ class pure_U_net_relu_TEST(nn.Module):
 if __name__ == "__main__":
     import torch as t
     rgb = t.randn(2, 1, 224, 224)
-    net = pure_U_net_relu_TEST(in_channel=1,num_class=7)
+    net = LightReSeg(in_channel=1,num_class=7)
     out = net(rgb)
     print(out.shape)
