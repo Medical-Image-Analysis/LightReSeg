@@ -26,3 +26,5 @@ X. He et al., "Lightweight Retinal Layer Segmentation With Global Reasoning," in
 ## Contact
 
 If you have any questions, please do not hesitate to contact hexiang@qfnu.edu.cn
+
+Google Scholar: (https://scholar.google.com/citations?user=0MW09ocAAAAJ&hl=en)
