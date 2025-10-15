@@ -1,4 +1,5 @@
 # Lightweight Retinal Layer Segmentation With Global Reasoning
+![Image text](https://github.com/Medical-Image-Analysis/LightReSeg/blob/main/Overall%20Framework.png)
 
 
 **If you use the code or dataset for your research, please cite the following paper:**
